@@ -1,0 +1,42 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+}
+
+.card {
+    flex: 1 1 300px; 
+    max-width: 300px;
+    margin: 9px; 
+    min-width: 250px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.card img{
+    height:fit-content;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    width:267px;
+}
+.card-body{
+    padding:15px;
+    height: 200px;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.modal-body , .card-header {
+    text-align: center;
+}
+
+.modal-body p {
+    margin: 5px 0;
+}
+.modal-header {
+    justify-content: center;
+}
+
+.modal-title {
+    text-align: center;
+    width: 100%; }
